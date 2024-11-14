@@ -1,8 +1,8 @@
-# GogaNotClownProfile [RU](README_RU.md) [Link to website](https://gogaNotclownprofile.netlify.app/)
+# GogaNotClownProfile [RU](README_RU.md) [Link to website](https://goganotclownprofile.netlify.app/)
 
 My personal website, developed with VueJS3 + ViteJS, that use GitHub REST API to fetch data dynamically
 
-![Project Preview](https://i.postimg.cc/mDw2SDNr/2024-03-03-144026.png)
+![Project Preview](public/assets/preview.png)
 
 ## Table of Contents
 

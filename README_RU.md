@@ -1,9 +1,9 @@
-# GogaNotClownProfile [EN](README.md) [Ссылка на сайт](https://gogaNotclownprofile.netlify.app/)
+# GogaNotClownProfile [EN](README.md) [Ссылка на сайт](https://goganotclownprofile.netlify.app/)
 
 Мой личный сайт, разработанный с использованием VueJS3 + ViteJS, использует GitHub REST API для динамической загрузки
 данных.
 
-![Превью проекта](https://i.postimg.cc/mDw2SDNr/2024-03-03-144026.png)
+![Превью проекта](public/assets/preview.png)
 
 ## Содержание
 
