@@ -1,0 +1,133 @@
+/* Settings */
+@import url('../public/fonts/fonts.css');
+
+:root {
+    --white: #FFFFFF;
+    --hover-white: rgba(255, 255, 255, .8);
+    --black: #000000;
+    --hover-blakc: rgba(0, 0, 0, .8);
+    --font: "Google Sans", sans-serif;
+    --radius: 5px;
+    --transition: .20s;
+    --social: gray;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+    cursor: pointer;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+body {
+    background-color: var(--black);
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.hero-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-img {
+    width: 190px;
+    max-width: 190px;
+    border-radius: var(--radius);
+}
+
+.hero-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hero-title {
+    color: var(--white);
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.hero-desc {
+    color: var(--white);
+    font-weight: 400;
+    font-size: 1.25rem;
+    width: 340px;
+}
+
+.hero-company {
+    color: var(--white);
+    font-weight: 400;
+    font-size: 1.25rem;
+    transition: var(--transition);
+}
+
+.hero-company:hover {
+    color: var(--hover-white);
+}
+
+.hero-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 5px;
+}
+
+.hero-link {
+    color: var(--white);
+    font-weight: 500;
+    font-size: 1.5rem;
+    transition: var(--transition);
+}
+
+.social:hover {
+    color: var(--social);
+}
+
+@media screen and (max-width: 576px) {
+    .hero-title, .hero-desc, .hero-company {
+        text-align: center;
+    }
+
+    .hero-list {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero-title {
+        font-size: 1.65rem;
+    }
+
+    .hero-desc {
+        width: 275px;
+    }
+}
