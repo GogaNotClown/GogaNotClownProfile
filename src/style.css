@@ -1,12 +1,12 @@
 /* Settings */
-@import url('../public/fonts/fonts.css');
+@import url('../fonts/fonts.css');
 
 :root {
     --white: #FFFFFF;
     --hover-white: rgba(255, 255, 255, .8);
     --black: #000000;
     --hover-blakc: rgba(0, 0, 0, .8);
-    --font: "Google Sans", sans-serif;
+    --font: "Raleway";
     --radius: 5px;
     --transition: .20s;
     --social: gray;
@@ -16,7 +16,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--font);
+    font-family: var(--font), sans-serif;
 }
 
 a {
@@ -77,14 +77,14 @@ body {
 
 .hero-desc {
     color: var(--white);
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.25rem;
     width: 340px;
 }
 
 .hero-company {
     color: var(--white);
-    font-weight: 400;
+    font-weight: 700;
     font-size: 1.25rem;
     transition: var(--transition);
 }
