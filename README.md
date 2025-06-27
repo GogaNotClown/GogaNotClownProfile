@@ -2,7 +2,7 @@
 
 This website uses the GitHub REST API to dynamically fetch data.
 
-![Project Preview](https://i.postimg.cc/D00BRXmS/preview.png)
+![Project Preview](https://i.postimg.cc/901rSLrh/image.png)
 
 ## Table of Contents
 
