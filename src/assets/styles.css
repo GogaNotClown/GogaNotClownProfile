@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "./fonts/fonts.css";
+
+@theme {
+  --font-display: "Google Sans";
+}
+
+@layer base {
+  * {
+    font-family: var(--font-display), sans-serif;
+  }
+}
